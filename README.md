@@ -4,6 +4,8 @@
 
 ¡Gracias por visitar este repositorio! Este proyecto es un homenaje al icónico reloj Casio F-91W, recreado con tecnologías web modernas.
 
+🚀 Este manual explica detalladamente cómo crear y ejecutar un reloj digital inspirado en el diseño icónico del Casio F-91W. Utilizando tecnologías como HTML, CSS y JavaScript, el proyecto desarrolla una representación digital del reloj, que incluye funcionalidades dinámicas como la actualización en tiempo real de la hora y fecha. Además, se destacan los pasos clave para establecer un entorno de trabajo, diseñar la estructura visual, y aplicar la lógica que da vida al reloj en el navegador. ¡Perfecto para quienes buscan aprender y disfrutar de un proyecto creativo y funcional!
+
 ![Portada](Screenshot_264.png)
 
 ### 🌟 ¡Apoya el Proyecto!
