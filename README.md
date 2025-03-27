@@ -3,7 +3,8 @@
 ## 🚀 Bienvenido al Proyecto de Reloj Digital
 
 ¡Gracias por visitar este repositorio! Este proyecto es un homenaje al icónico reloj Casio F-91W, recreado con tecnologías web modernas.
-!(Portada)[Screenshot_264.png]
+
+![Portada](Screenshot_264.png)
 
 ### 🌟 ¡Apoya el Proyecto!
 
