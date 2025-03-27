@@ -1,0 +1,222 @@
+/* Basic Reset and Body Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f5eb; /* Fondo original de la imagen */
+  font-family: Arial, sans-serif; /* Fallback font */
+}
+
+/* --- Watch General --- */
+.watch {
+  position: relative;
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(1.3);
+}
+
+/* --- Case --- */
+.case {
+  width: 230px;
+  height: 195px;
+  background-color: #1a202c;
+  border: 1px solid #000;
+  border-radius: 15px;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4),
+              inset 0 1px 2px rgba(255, 255, 255, 0.1),
+              inset 0 -1px 2px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+/* --- Straps --- */
+.strap {
+  width: 180px;
+  height: 200px;
+  background-color: #111;
+  position: relative;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,0.5);
+}
+
+.strap-top {
+  border-radius: 20px 20px 0 0;
+  margin-bottom: -15px;
+  padding-top: 20px;
+}
+
+.strap-bottom {
+  border-radius: 0 0 20px 20px;
+  margin-top: -15px;
+  padding-top: 20px;
+}
+
+/* Strap Ridges */
+.ridge {
+  height: 4px;
+  background-color: #2d3748;
+  border-radius: 2px;
+  margin: 15px auto;
+  width: 70%;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+.strap-top .ridge:first-child { margin-top: 10px; }
+.strap-bottom .ridge:first-child { margin-top: 10px; }
+
+/* --- Screen Area --- */
+.screen-border {
+  background-color: #2d3748;
+  width: calc(100% - 12px);
+  height: calc(100% - 50px);
+  margin: 25px auto;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.5);
+}
+
+.screen {
+  background-color: #d9e3cf;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #4299e1;
+  border-radius: 4px;
+  padding: 5px 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* --- Display Content --- */
+.display {
+  color: #1a202c;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
+
+/* Top Row (Day, Date) */
+.top-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  font-size: 1.1em;
+  position: relative;
+  margin-top: 3px;
+}
+.day { margin-left: 10px; }
+.date { margin-right: 5px; }
+
+/* Time Row (Hours, Mins, Secs) */
+.time-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 2.8em;
+  position: relative;
+  letter-spacing: 2px;
+  margin-bottom: 3px;
+}
+
+/* Specific Time Elements */
+.indicator-24h {
+  font-family: Arial, sans-serif;
+  font-size: 0.3em;
+  font-weight: normal;
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  margin: 1px;
+}
+.indicator-pm { /* Estilo para formato 12h si se requiere */ }
+
+.colon {
+  font-family: Arial, sans-serif;
+  margin: 0 0px;
+  transform: translateY(-4px);
+  letter-spacing: 0;
+}
+
+.seconds {
+  font-size: 0.6em;
+  align-self: flex-end;
+  margin-left: 3px;
+  margin-bottom: 4px;
+  letter-spacing: 1px;
+}
+
+/* Bottom Indicators (Alarm, Chime) */
+.indicators {
+  position: absolute;
+  bottom: 3px;
+  left: 5px;
+  font-size: 0.8em;
+}
+
+/* --- Labels Around Screen --- */
+.label {
+  position: absolute;
+  font-size: 0.65em;
+  color: #f6ad55;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+.arrow {
+  font-size: 1.1em;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 1px;
+}
+
+/* Posicionamiento Preciso de Labels */
+.label-brand { top: 5px; left: 50%; transform: translateX(-50%); color: #a0aec0; font-size: 0.8em; }
+.label-model { top: 5px; right: 10px; font-size: 0.8em; }
+.label-light { top: 28px; left: 5px; }
+.label-alarm-chrono { top: 28px; right: 5px; text-align: right; }
+.label-mode { bottom: 28px; left: 5px; }
+.label-alarm-onoff { bottom: 28px; right: 5px; text-align: right; }
+.label-water { bottom: 5px; left: 15px; }
+.label-resist { bottom: 5px; right: 15px; }
+.label-wr {
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #e53e3e;
+  font-size: 0.9em;
+  background-color: #d9e3cf;
+  padding: 0 3px;
+  border: 1.5px solid #718096;
+  border-radius: 2px;
+  z-index: 5;
+}
+
+/* --- Buttons --- */
+.button {
+  position: absolute;
+  width: 8px;
+  height: 20px;
+  background: linear-gradient(to right, #e2e8f0, #e7f0cb);
+  border: 1px solid #718096;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  z-index: 5;
+}
+.button-left-top { left: -6px; top: 45px; }
+.button-left-bottom { left: -6px; bottom: 45px; }
+.button-right { right: -6px; top: 50%; transform: translateY(-50%); }
