@@ -19,7 +19,7 @@ Si te gusta este proyecto, ¡por favor dale una estrella (★) en el repositorio
 
 ### 💡 Características
 
-- Diseño fiel al Casio F-91W original
+- Diseño casi fiel al Casio F-91W original (Un poco de Creatividad)
 - Reloj digital funcional
 - Responsive y multiplataforma
 - Código limpio y bien documentado
