@@ -43,7 +43,7 @@ Si te gusta este proyecto, ¡por favor dale una estrella (★) en el repositorio
 
 ### 📄 Licencia
 
-Este proyecto está bajo [INDICAR LICENCIA, por ejemplo MIT]
+Este proyecto está bajo [MIT]
 
 ### 🎉 ¡Gracias por tu Apoyo!
 
