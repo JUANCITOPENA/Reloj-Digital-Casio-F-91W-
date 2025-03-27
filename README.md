@@ -40,7 +40,6 @@ Si te gusta este proyecto, ¡por favor dale una estrella (★) en el repositorio
 3. 📷 **Instagram**: [@juancito.pena.v](https://www.instagram.com/juancito.pena.v/)
 4. 📑 **Facebook**: [Juancito Peña V](https://www.facebook.com/juancito.p.v)
 5. 🐦 **Twitter**: [@JuancitoPenaV](https://twitter.com/JuancitoPenaV)
-6. 📰 **Blog**: [Adviser Tecnology](https://advisertecnology.com/)
 
 ### 📄 Licencia
 
