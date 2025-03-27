@@ -35,25 +35,12 @@ Si te gusta este proyecto, ¡por favor dale una estrella (★) en el repositorio
 
 ¡Sígueme y mantente conectado!
 
-- 📸 Instagram: [@tuusuario]
-- 🐦 Twitter: [@tuusuario]
-- 💻 GitHub: [@tuusuario]
-- 🌐 Sitio Web: [tuwebsite.com]
-
-
 1. 🎬 **YouTube**: [@JuancitoPenaV](https://www.youtube.com/@JuancitoPenaV)
-
 2. 👨‍💼 **LinkedIn**: [Juancito Peña](https://www.linkedin.com/in/juancitope%C3%B1a/)
-
-3. 📰 **Blog**: [Adviser Tecnology](https://advisertecnology.com/)
-
-4. 📷 **Instagram**: [@juancito.pena.v](https://www.instagram.com/juancito.pena.v/)
-
-5. 📑 **Facebook**: [Juancito Peña V](https://www.facebook.com/juancito.p.v)
-
-6. 🐦 **Twitter**: [@JuancitoPenaV](https://twitter.com/JuancitoPenaV)
-
-7. 📰 **Blog**: [Adviser Tecnology](https://advisertecnology.com/)
+3. 📷 **Instagram**: [@juancito.pena.v](https://www.instagram.com/juancito.pena.v/)
+4. 📑 **Facebook**: [Juancito Peña V](https://www.facebook.com/juancito.p.v)
+5. 🐦 **Twitter**: [@JuancitoPenaV](https://twitter.com/JuancitoPenaV)
+6. 📰 **Blog**: [Adviser Tecnology](https://advisertecnology.com/)
 
 ### 📄 Licencia
 
