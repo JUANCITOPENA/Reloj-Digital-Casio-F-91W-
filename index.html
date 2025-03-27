@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reloj Casio F-91W</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fuente digital -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="watch">
+    <div class="strap strap-top">
+      <div class="ridge"></div>
+      <div class="ridge"></div>
+    </div>
+    <div class="case">
+      <!-- Labels -->
+      <div class="label label-brand">CASIO</div>
+      <div class="label label-model">F-91W</div>
+      <div class="label label-light"><span class="arrow">◀</span> LIGHT</div>
+      <div class="label label-alarm-chrono">ALARM CHRONOGRAPH</div>
+      <div class="label label-mode"><span class="arrow">◀</span> MODE</div>
+      <div class="label label-alarm-onoff">ALARM ON-OFF/24HR <span class="arrow">▶</span></div>
+      <div class="label label-water">WATER</div>
+      <div class="label label-wr">WR</div>
+      <div class="label label-resist">RESIST</div>
+
+      <!-- Screen -->
+      <div class="screen-border">
+        <div class="screen">
+          <div class="display">
+            <div class="top-row">
+              <span class="day" id="day">WE</span>
+              <span class="date" id="date">26/07/21</span>
+            </div>
+            <div class="time-row">
+              <span class="indicator-pm"></span> <!-- Muestra PM si se usa formato 12h -->
+              <span class="indicator-24h">24H</span>
+              <span class="hours" id="hours">19</span>
+              <span class="colon">:</span>
+              <span class="minutes" id="minutes">55</span>
+              <span class="seconds" id="seconds">21</span>
+            </div>
+            <div class="indicators">
+              <!-- Placeholders para indicadores (como alarma o chime) -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="button button-left-top"></div>
+      <div class="button button-left-bottom"></div>
+      <div class="button button-right"></div>
+    </div>
+    <div class="strap strap-bottom">
+      <div class="ridge"></div>
+      <div class="ridge"></div>
+      <div class="ridge"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
